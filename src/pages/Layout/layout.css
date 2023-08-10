@@ -1,0 +1,7 @@
+main{
+display: grid;
+place-items: center;
+padding: 2rem 0;
+width: auto;
+height: auto;
+}

@@ -1,4 +1,4 @@
-import Home from "./pages/Home/Home"
+import Home from "./pages/home/home"
 import Cities from "./pages/Cities/Cities"
 
 function App() {

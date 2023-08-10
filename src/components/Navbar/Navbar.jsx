@@ -1,17 +1,19 @@
 import React from 'react'
+import './navbar.css'
 
 const Navbar = () => {
     return (
         <nav>
-            <div>
-                <img src="" alt="mytinerary-logo" />
+            <div className='navLogo'>
+                <img src="public/death-star.svg" alt="mytinerary-logo" />
                 <h1>MyTynerary</h1>
             </div>
-            <div>
-            <a href="#">Home</a>
-            <a href="#">Cities</a>
-            <a href="#">Contact</a>
-            <img src="" alt="user-picture" />
+            <div className='navMenu'>
+                <a href="#">Home</a>
+                <a href="#">Cities</a>
+                <a href="#">Contact</a>
+                <a href="#">About</a>
+                <img className='userImg' src="public/user.svg" alt="user-picture" />
             </div>
         </nav>
     )

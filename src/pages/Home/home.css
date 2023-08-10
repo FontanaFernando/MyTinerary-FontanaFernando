@@ -1,0 +1,55 @@
+article{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 75vw;
+    gap: 6rem;
+    padding-bottom: 4rem;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 40%;
+    gap: 2rem;
+}
+
+.hero button{
+    height: 2rem;
+    width: 6rem;
+}
+
+aside{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    float: right;
+    width: 20vw;
+}
+
+aside img{
+    height: 20rem;
+    object-fit: contain;
+}
+
+@media (max-width: 930px) {
+
+    aside img{
+        height: 15rem;
+        object-fit: contain;
+    }
+
+}
+
+@media (max-width: 668px) {
+
+    .hero{
+        width: 90%;
+    }
+
+    aside{
+        display: none;
+    }
+
+}

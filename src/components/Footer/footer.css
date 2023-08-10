@@ -1,0 +1,32 @@
+footer {
+    width: 90vw;
+    height: 5vh;
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerLogo + .footerMedia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.footerLogo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+.footerLogo img{
+    width: 3rem;
+}
+
+.footerMedia img{
+    width: 2.75rem;
+    background-color: antiquewhite;
+    border-radius: 100%
+}
