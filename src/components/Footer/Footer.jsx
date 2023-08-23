@@ -6,7 +6,7 @@ const Footer = () => {
         <footer>
             <div className='footerLogo'>
                 <img src="public/death-star.svg" alt="mytinerary-logo" />
-                <p>direccion papapapapa</p>
+                <p>© MyTynerary</p>
             </div>
             <div className='footerMedia'>
                 <a  href="https://www.facebook.com/" target='blank'><img src="public/meta.svg" alt="Facebook" /></a>

@@ -6,15 +6,30 @@ import Footer from '../../components/Footer/Footer'
 const Layout = ({children}) => {
     return (
         <>
+        <header>
+        <Navbar />
+        </header>
+        <main>
+        {children}
+        </main>
+        <Footer />
+        </>
+        )
+    }
+    
+/*     import { Outlet } from 'react-router-dom';
+const Layout = () => {
+    return (
+        <>
             <header>
                 <Navbar />
             </header>
             <main>
-                {children}
+                <Outlet />
             </main>
             <Footer />
         </>
     )
-}
+} */
 
 export default Layout

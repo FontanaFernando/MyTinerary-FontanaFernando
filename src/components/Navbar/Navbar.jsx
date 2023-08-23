@@ -1,5 +1,5 @@
-import React from 'react'
-import './navbar.css'
+import React from 'react';
+import './navbar.css';
 
 const Navbar = () => {
     return (
@@ -9,14 +9,14 @@ const Navbar = () => {
                 <h1>MyTynerary</h1>
             </div>
             <div className='navMenu'>
-                <a href="#">Home</a>
-                <a href="#">Cities</a>
+                <a href="/">Home</a>
+                <a href="/Cities">Cities</a>
                 <a href="#">Contact</a>
                 <a href="#">About</a>
                 <img className='userImg' src="public/user.svg" alt="user-picture" />
             </div>
         </nav>
     )
-}
+};
 
-export default Navbar
+export default Navbar;
