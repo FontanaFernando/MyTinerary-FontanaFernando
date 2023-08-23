@@ -6,7 +6,7 @@ const Cities = () => {
   const [cities, setCities] = useState([]);
 
   useEffect(() => {
-    fetch('mongodb+srv://Nano:mongo123@mytinerary.2jdus1q.mongodb.net/citiesdb')
+    fetch('URL api')
       .then(response => response.json())
       .then(data => setCities(data))
       .catch(error => console.error('Error fetching data:', error));
