@@ -22,11 +22,7 @@ const routes = createBrowserRouter([
 
 function App() {
   return (
-    // <RouterProvider routes={routes}/>
-    <div>
-        {/* <Home /> */}
-      <Cities />
-    </div>
+    <RouterProvider router={routes}/>
   )
 };
 
