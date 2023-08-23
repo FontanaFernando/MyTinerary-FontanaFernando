@@ -6,4 +6,4 @@ const Cities = () => {
   )
 }
 
-export default Cities
+export default Cities;
