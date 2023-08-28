@@ -1,11 +1,11 @@
 import React from 'react'
-import Layout from '../Layout/Layout'
+//? import Layout from '../Layout/Layout' 
 import Carousel from '../../components/Carousel/Carousel'
 import './home.css'
 
 const Home = () => {
   return (
-    <Layout>
+    <div>
       <article>
         <section className='hero'>
           <h2>Find the perfect destination</h2>
@@ -19,7 +19,7 @@ const Home = () => {
       <section>
         <Carousel />
       </section>
-    </Layout>
+    </div>
   )
 }
 

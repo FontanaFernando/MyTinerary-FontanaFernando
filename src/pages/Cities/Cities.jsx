@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Layout from '../Layout/Layout';
+//? import Layout from '../Layout/Layout';
 import './cities.css';
 
 const Cities = () => {
@@ -13,14 +13,14 @@ const Cities = () => {
   }, []);
 
   return (
-    <Layout>
+    <div>
       <h1>Cities</h1>
       <ul>
         {cities.map(city => (
           <li key={city._id}>{city.name}</li>
         ))}
       </ul>
-    </Layout>
+    </div>
   );
 }
 
