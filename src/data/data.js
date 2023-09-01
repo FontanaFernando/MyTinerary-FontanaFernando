@@ -62,17 +62,17 @@ const data = [
     {
         id: "13",
         name: "Granada",
-        image: "https://losviajesdedomi.com/wp-content/uploads/2021/07/granada-ciudades-mas-bonitas-de-europa-1.jpg",
+        image: "https://www.65ymas.com/uploads/s1/66/26/1/bigstock-granada-andalusia-spain-eur-267976591.jpeg",
     },
     {
         id: "14",
         name: "Viena",
-        image: "https://losviajesdedomi.com/wp-content/uploads/2021/07/Viena-Austria-ciudades-mas-bonitas-de-europa-1.jpg",
+        image: "https://th.bing.com/th/id/R.38f32eba6c401077b8eb487367e9ea2c?rik=kFWtXbssrUrNKg&pid=ImgRaw&r=0",
     },
     {
         id: "15",
         name: "Amsterdam",
-        image: "https://losviajesdedomi.com/wp-content/uploads/2021/07/amsterdam-ciudades-mas-bonitas-de-europa-2.jpg",
+        image: "https://th.bing.com/th/id/R.93dcbd5229b390478608b7bc53a04aae?rik=JoIMGQrvhW7j%2fQ&pid=ImgRaw&r=0",
     }
 ]
 

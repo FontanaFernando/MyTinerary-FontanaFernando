@@ -1,25 +1,10 @@
-import React, { useState, useEffect } from 'react';
-//? import Layout from '../Layout/Layout';
-import './cities.css';
+import React from 'react'
+import CitiesCard from '../../components/CitiesCard/CitiesCard';
 
 const Cities = () => {
-  const [cities, setCities] = useState([]);
-
-  useEffect(() => {
-    fetch('URL api')
-      .then(response => response.json())
-      .then(data => setCities(data))
-      .catch(error => console.error('Error fetching data:', error));
-  }, []);
-
   return (
     <div>
-      <h1>Cities</h1>
-      <ul>
-        {cities.map(city => (
-          <li key={city._id}>{city.name}</li>
-        ))}
-      </ul>
+      <CitiesCard />
     </div>
   );
 }

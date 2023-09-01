@@ -1,0 +1,47 @@
+.card{    
+    display: flex;
+    flex-wrap: wrap;
+    width: 20rem;
+    padding: 0.5rem;
+    background-color: rgba(250, 235, 215, 0.199);
+    border-radius: 0.5rem;
+}
+
+.card_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.card_title {
+    padding: 1rem, 0, 0.5rem;
+}
+
+.card_country {
+    color: rgb(161, 154, 145);
+}
+
+.card_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 18rem;
+    width: 19rem;
+    padding: 0.5rem;
+}
+
+.card_button {
+    color: antiquewhite;
+    display: grid;
+    place-content: center;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    background-color: rgb(58, 58, 58);
+    height: 2rem;
+    width: 4rem;
+}
+
+.card_button:hover {
+    color: azure;
+    background-color: rgb(53, 53, 53);
+    border: 1px solid rgba(250, 235, 215, 0.199);
+}
