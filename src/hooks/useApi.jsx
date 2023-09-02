@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import axios from 'axios';
 
 const useApi = (initialUrl) => {
     const [data, setData] = useState(null);
@@ -8,9 +9,8 @@ const useApi = (initialUrl) => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch(initialUrl);
-                const jsonData = await response.json();
-                setData(jsonData);
+                const response = await axios.get(initialUrl);
+                setData(response.data);
                 setLoading(false);
             } catch (err) {
                 setError(err);

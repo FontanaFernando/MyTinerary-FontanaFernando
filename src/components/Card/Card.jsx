@@ -29,7 +29,7 @@ const Image = ({ src, alt }) => {
 const Card = ({ keys, title, button, country, image }) => {
     return (
         <div className="card" key={keys} >
-            <div clasName="card_info">
+            <div className="card_info">
             <Title>{title}</Title>
             <Country>{country}</Country>
             </div>
