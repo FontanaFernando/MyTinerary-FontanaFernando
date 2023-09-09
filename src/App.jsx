@@ -18,7 +18,7 @@ const routes = createBrowserRouter([
         element: <Cities />
       },
       {
-        path: '/CardDetail',
+        path: '/CardDetail/:id',
         element: <CardDetail />
       }
     ]

@@ -1,15 +1,19 @@
-import { createAction, createAsyncThunk } from "@reduxjs/toolkit";
+import { createAsyncThunk, createAction } from "@reduxjs/toolkit";
+import axios from "axios";
 
-const getCitiesSync = createAction ('getCities', (data)=>{
-    return {
-        payload: 'ALGO'
-    }
+export const fetchData = createAsyncThunk('FETCH_DATA', async () => {
+        //console.log("Fetching data...");
+        try {
+            const response = await fetch('http://localhost:5175/api/itinerary');
+
+          if (!response.ok) {
+            throw new Error('Network response was not ok');
+          }
+          const data = await response.json();
+        
+          return data.itinerary;
+        } catch (error) {
+          throw error;
+        }
 });
-
-const getCitiesAsync = createAsyncThunk ('getCities', async (data)=>{
-    return {
-        payload: 'ALGO'
-    }
-});
-
-export { getCities };
+      

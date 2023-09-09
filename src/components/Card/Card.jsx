@@ -8,9 +8,9 @@ const Title = ({ children }) => {
     )
 }
 
-const Button = ({ children }) => {
+const Button = ({ nameCity, children }) => {
     return (
-        <Link to="/CardDetail" className="card_button">{children}</Link>
+        <Link to={"/CardDetail/"+nameCity} className="card_button">{children}</Link>
     );
 };
 
@@ -34,7 +34,7 @@ const Card = ({ keys, title, button, country, image }) => {
             <Country>{country}</Country>
             </div>
             <Image src={image} alt={title} />
-            <Button>{button}</Button>
+            <Button nameCity={title}>{button}</Button>
         </div>
     );
 }

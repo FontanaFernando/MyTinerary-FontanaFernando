@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useSelector } from 'react-redux';
 import Card from '../Card/Card';
 import useApi from '../../hooks/useApi';
 import './citiesCard.css';
